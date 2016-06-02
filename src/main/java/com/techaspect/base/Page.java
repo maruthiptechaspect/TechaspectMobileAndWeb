@@ -246,7 +246,7 @@ public class Page {
 			return dateFormat.format(date);
 		}
 		
-	//***********24. TAKES SCREENSHOT******************
+	//***********24. THIS TAKES SCREENSHOT******************
 		public static void takeScreenshot(String fileName) {
 
 			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
